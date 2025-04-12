@@ -6,7 +6,7 @@ from tkinter import simpledialog, messagebox
 root = tk.Tk()
 root.withdraw()
 
-url = simpledialog.askstring("input", "Enter any youtube url:")
+url = simpledialog.askstring("Oye", "Enter any youtube url you want to download:")
 
 #url = 'https://youtu.be/rqeCzp4c1Zg?si=dTWHy2gOqGd5IsHb'
 
@@ -18,4 +18,4 @@ with yt_dlp.YoutubeDL(ytd_opt) as ydl:
 
 #print("Successfully downloaded")
 
-messagebox.showinfo("myDownload", "Successfully downloaded")
+messagebox.showinfo("Oye", "Successfully downloaded ")
